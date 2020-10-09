@@ -54,3 +54,11 @@ footer {
     margin: 10px;
     padding: 5px;
 }
+
+.pizza-image {
+    height: 500px;
+}
+
+.social-icons {
+    background-color: greenyellow;
+}
