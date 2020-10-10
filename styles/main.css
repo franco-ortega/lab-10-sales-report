@@ -36,20 +36,16 @@ head {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     margin: 10px;
     padding: 5px;
-    background-color: yellow;
 }
 
 section {
-    background-color:lightblue;
     margin: 10px;
     padding: 5px;
 }
 
 footer {
-    background-color: purple;
     margin: 10px;
     padding: 5px;
 }
@@ -59,7 +55,7 @@ footer {
 }
 
 .social-icons {
-    background-color: greenyellow;
+    display: inline;
 }
 
 .paper-image {
@@ -102,3 +98,40 @@ footer {
     align-items: flex-start;
   }
   
+.logo-div {
+    display: inline;
+}
+
+.delicious-text {
+    font-size: 30px;
+}
+
+.vanessa-div {
+    display: inline;
+}
+
+.vanessa-span {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid white;
+
+}
+
+.vanessa-text {
+    border: 1px solid purple;
+
+}
+
+.logo-footer {
+    text-align: center;
+}
+
+.chocolate-span {
+    text-align: left;
+    font-size: 40px;
+}
+
+.print-span {
+    display: flex;
+    justify-content: flex-end
+}
