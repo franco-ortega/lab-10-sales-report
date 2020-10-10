@@ -112,6 +112,8 @@ footer {
 
 .vanessa-div {
     display: inline;
+
+    justify-content: sp;
 }
 
 .vanessa-span {
@@ -126,6 +128,11 @@ footer {
 
 }
 
+.author {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo-footer {
     text-align: center;
 }
@@ -134,8 +141,14 @@ footer {
     text-align: left;
     font-size: 40px;
 }
+.share-button {
+    background-color: rgb(175, 65, 1);
+}
 
 .print-span {
     display: flex;
     justify-content: flex-end
+}
+.published {
+    color: rgb(177, 177, 177);
 }
