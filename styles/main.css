@@ -4,8 +4,10 @@
 
 body {
     background-color: white;
-    margin: 10px;
+    margin: auto;
     padding: 5px;
+    width: 1000px;
+
 }
 
 header {
@@ -13,7 +15,7 @@ header {
     flex-direction: row;
     align-items: center;
 
-    background-color: blue;
+
     margin: 10px;
     padding: 5px;
 }
@@ -22,13 +24,11 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
     margin: 10px;
     padding: 5px;
 }
 
 main {
-    background-color: green;
     margin: 10px;
     padding: 5px;
 }
@@ -37,20 +37,129 @@ head {
     display: flex;
     flex-direction: row;
     align-items: center;
-
     margin: 10px;
     padding: 5px;
-    background-color: yellow;
 }
 
 section {
-    background-color:lightblue;
     margin: 10px;
     padding: 5px;
 }
 
 footer {
-    background-color: purple;
     margin: 10px;
     padding: 5px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-image {
+    display: flex;
+    display: flex;
+}
+.pizza-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.social-icons {
+    display: inline;
+    align-items: flex-end;
+}
+
+.paper-image {
+    width: 100%;
+    min-height: 300px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Container holding the image and the text */
+.container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: rgb(117, 117, 117);
+    align-items: flex-start;
+    
+  }
+  
+  /* Top right text */
+  .top-right {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: rgb(117, 117, 117);
+    align-items: flex-start;
+  }
+  
+.logo-div {
+    display: inline;
+}
+
+.delicious-text {
+    font-size: 30px;
+}
+
+.vanessa-div {
+    display: inline;
+
+    justify-content: sp;
+}
+
+.vanessa-span {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid white;
+
+}
+
+.vanessa-text {
+    border: 1px solid purple;
+
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    text-align: center;
+}
+
+.chocolate-span {
+    text-align: left;
+    font-size: 40px;
+}
+.share-button {
+    background-color: rgb(175, 65, 1);
+}
+
+.print-span {
+    display: flex;
+    justify-content: flex-end
+}
+.published {
+    color: rgb(177, 177, 177);
 }
