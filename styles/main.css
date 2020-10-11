@@ -7,15 +7,12 @@ body {
     margin: auto;
     padding: 5px;
     width: 1000px;
-
 }
 
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
     margin: 10px;
     padding: 5px;
 }
@@ -46,6 +43,15 @@ section {
     padding: 5px;
 }
 
+p.ingredient {
+    margin: 1px;
+    padding: 5px;
+}
+
+input[type=checkbox]:checked + label.strikethrough {
+    text-decoration: line-through;
+}
+
 footer {
     margin: 10px;
     padding: 5px;
@@ -65,7 +71,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 100%;
-
 }
 
 .social-icons {
@@ -82,27 +87,23 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-/* Container holding the image and the text */
 .container {
     width: 100%;
     position: relative;
     text-align: center;
     color: white;
   }
-  /* Top left text */
+
   .top-left {
     position: absolute;
     top: 8px;
     left: 16px;
     color: rgb(117, 117, 117);
-    align-items: flex-start;
-    
+    align-items: flex-start;    
   }
   
-  /* Top right text */
   .top-right {
     display: flex;
     justify-content: flex-end;
@@ -131,12 +132,6 @@ footer {
     font-size: 25px;
     font-weight: bold;
     border: 1px solid white;
-
-}
-
-.vanessa-text {
-    border: 1px solid purple;
-
 }
 
 .author {
